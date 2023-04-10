@@ -15,13 +15,6 @@ module.exports = {
     env: {
         BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
         API_ENDPOINT: process.env.API_ENDPOINT || '',
-
-        GOOGLE_ADSENSE_CLIENT_ID: process.env.GOOGLE_ADSENSE_CLIENT_ID || '',
-        GOOGLE_ADSENSE_MIDDLE_SLOT: process.env.GOOGLE_ADSENSE_MIDDLE_SLOT || '',
-        GOOGLE_ADSENSE_LEFT_SLOT: process.env.GOOGLE_ADSENSE_LEFT_SLOT || '',
-        GOOGLE_ADSENSE_RIGHT_SLOT: process.env.GOOGLE_ADSENSE_RIGHT_SLOT || '',
-
-        GOOGLE_ANALYTICS_TRACK_ID: process.env.GOOGLE_ANALYTICS_TRACK_ID || ''
     },
     webpack: (config) => {
         config.resolve = {
